@@ -15,6 +15,7 @@
 		3635A90E218DA7F200E30DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635A90D218DA7F200E30DCF /* main.m */; };
 		3635A918218DA7F200E30DCF /* myserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635A917218DA7F200E30DCF /* myserverTests.m */; };
 		3635A923218DA7F200E30DCF /* myserverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635A922218DA7F200E30DCF /* myserverUITests.m */; };
+		3635A931218DA87500E30DCF /* numone.json in Resources */ = {isa = PBXBuildFile; fileRef = 3635A930218DA87500E30DCF /* numone.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3635A91E218DA7F200E30DCF /* myserverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myserverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3635A922218DA7F200E30DCF /* myserverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myserverUITests.m; sourceTree = "<group>"; };
 		3635A924218DA7F200E30DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3635A930218DA87500E30DCF /* numone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = numone.json; path = ../../numone.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		3635A8FD218DA7EC00E30DCF /* myserver */ = {
 			isa = PBXGroup;
 			children = (
+				3635A930218DA87500E30DCF /* numone.json */,
 				3635A8FE218DA7EC00E30DCF /* AppDelegate.h */,
 				3635A8FF218DA7EC00E30DCF /* AppDelegate.m */,
 				3635A901218DA7EC00E30DCF /* ViewController.h */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3635A90B218DA7F200E30DCF /* LaunchScreen.storyboard in Resources */,
+				3635A931218DA87500E30DCF /* numone.json in Resources */,
 				3635A908218DA7F200E30DCF /* Assets.xcassets in Resources */,
 				3635A906218DA7EC00E30DCF /* Main.storyboard in Resources */,
 			);
